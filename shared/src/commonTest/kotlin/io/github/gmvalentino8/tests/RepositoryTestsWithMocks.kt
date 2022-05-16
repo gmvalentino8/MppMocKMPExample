@@ -15,7 +15,6 @@ class RepositoryTestsWithMocks : TestsWithMocks() {
     override fun setUpMocks() = injectMocks(mocker)
 
     @Mock lateinit var api: Api
-    @Fake lateinit var apiModel: ApiModel
     private val repository by withMocks { RepositoryImpl(api = api) }
 
     @BeforeTest
