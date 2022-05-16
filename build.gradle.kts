@@ -10,10 +10,6 @@ buildscript {
     }
 }
 
-plugins {
-    id("com.google.devtools.ksp") version "1.6.20-1.0.5"
-}
-
 allprojects {
     group = "io.github.gmvalentino8"
     version = "0.0.1"

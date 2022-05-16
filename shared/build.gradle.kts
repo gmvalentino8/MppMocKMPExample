@@ -1,7 +1,6 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
-    id("com.google.devtools.ksp")
     id("org.kodein.mock.mockmp") version "1.6.0"
 }
 
